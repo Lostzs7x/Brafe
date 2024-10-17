@@ -53,5 +53,30 @@ body{
     padding: 10px;
 }
 
+.Intro{
+    background-image: url(../img/bg-intro.jpg);
+    background-size: cover;
+    padding: 150px 0;
+    color: #fff;
+    text-align: center;
+}
 
+.Intro h2{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.Intro p{
+    font-style: italic;
+    font-size: 1.125em;
+}
+
+.Intro h2::after{
+    content:"" ;
+    display: block;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    margin: 10px auto;
+}
 
